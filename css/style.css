@@ -297,6 +297,12 @@ span.gold__underline {
     }
 }
 
+@media (max-width: 600px) {
+    .experience__list {
+        padding-inline-start: 0;
+    }
+}
+
 /* Section - Projects */
 .projects {
     margin: 4em auto;
