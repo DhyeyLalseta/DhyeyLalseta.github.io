@@ -303,9 +303,27 @@ span.gold__underline {
     }
 }
 
+/* Section - Dotty Boi */
+.dotty-boi-section {
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
+
+.dotty-boi {
+    display: inline;
+}
+
+.dotty-boi-img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    box-shadow: none;
+}
+
 /* Section - Projects */
 .projects {
-    margin: 4em auto;
+    margin: 0 auto 2em;
     max-width: 80%;
     position: relative;
 }
