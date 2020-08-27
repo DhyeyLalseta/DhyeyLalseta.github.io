@@ -8,8 +8,8 @@ window.addEventListener('load', () => {
     const typed = new Typed("#typed", {
         strings: ["", "software engineer", "software e...", "software engineer"],
         cursorChar: '',
-        typeSpeed: 100,
-        backSpeed: 300,
+        typeSpeed: 50,
+        backSpeed: 150,
     });
 
     const dottyBoiImg = document.querySelector(".dotty-boi-img");

@@ -234,11 +234,31 @@ header {
     background-color: var(--clr-light);
 }
 
+.about__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(max-width: 900px) {
+    .about__desc {
+        flex-direction: row;
+        position: relative;
+    }
+
+    .icon-dark {
+        float: right;
+        right: 0;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
 span.gold__word {
     color: var(--clr-accent);
 }
 
-@media (min-width: 850px) {
+@media (min-width: 900px) {
     .about__body {
         display: grid;
         grid-template-columns: 1fr 400px;
@@ -362,6 +382,11 @@ span.gold__underline {
     -o-transition: color 0.4s ease-out;
     -ms-transition: color 0.4s ease-out;
     transition: color 0.4s ease-out;
+}
+
+.icon-dark {
+    color: var(--clr-dark);
+    width: min-content;
 }
 
 .icon:hover {
